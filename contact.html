@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="icon" href="images/favicon.png">
+    </head>
+    <body>
+
+        <!--Navigation Section-->
+        <nav>
+             <a href="home.html"><img src="images/willy%20wonka%20logo.png" class="website-logo" alt="logo"></a>
+            <a href="nav.html">
+                <div class="menu-bar" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </a>
+        </nav>
+
+        <!--Contact Me Section-->
+        <section class="blogs">
+            <div class="container-fluid">
+                <div class="blogs-holder">
+                    <div class="blog-box sub-heading"><p>Contact <span class="pink">Me</span> </p></div>
+                    <div class="my-latest-blog-posts-box minor-heading"><p><span class="pink">Get </span> In Touch</p></div>
+                </div>
+
+                <div class="row contact-row">
+                    <div class="col-lg-6 form-col contact-col">
+                        <div class="message-me-box"><p>Message Me</p></div>
+
+                        <form action="#" method="post" class="contact-form">
+                            <div class="name-email">
+                                <input type="text" name="name" id="name" placeholder="Name" class="input-box" >
+                                <input type="email" name="email" id="email" placeholder="Email" class="input-box"><br>
+                            </div>
+
+                            <div class="subject-message">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" class="input-box">
+                                <textarea name="message" id="message" placeholder="Message" class="input-box"></textarea>
+                            </div>
+
+                            <div class="submit-button">
+                                <div class="view-project-button">
+                                    <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 contact-info-col contact-col">
+                        <div class="contact-back-holder">
+                            <div class="info-holder">
+                                <div class="contact-info-box"><p>Contact Info</p></div>
+                                <div class="info">
+                                    <div class="contact-card-details-holder">
+                                        <div class="contact-card-detail">
+                                            <div class="contact-card-detail-picture-holder">
+                                                <img src="images/icon-name.png" class="contact-card-detail-picture">
+                                            </div>
+                                            <div class="contact-card-detail-info">
+                                                <div class="contact-card-detail-title">Name</div>
+                                                <div class="contact-card-detail-desc">Arlo Brown</div>
+                                            </div>
+                                        </div>
+                                        <div class="contact-card-detail">
+                                            <div class="contact-card-detail-picture-holder">
+                                                <img src="images/icon-location.png" class="contact-card-detail-picture">
+                                            </div>
+                                            <div class="contact-card-detail-info">
+                                                <div class="contact-card-detail-title">Location</div>
+                                                <div class="contact-card-detail-desc">New York</div>
+                                            </div>
+                                        </div>
+                                        <div class="contact-card-detail">
+                                            <div class="contact-card-detail-picture-holder">
+                                                <img src="images/icon-phone.png" class="contact-card-detail-picture">
+                                            </div>
+                                            <div class="contact-card-detail-info">
+                                                <div class="contact-card-detail-title">Call</div>
+                                                <div class="contact-card-detail-desc">+12345678</div>
+                                            </div>
+                                        </div>
+                                        <div class="contact-card-detail">
+                                            <div class="contact-card-detail-picture-holder">
+                                                <img src="images/icon-email.png" class="contact-card-detail-picture">
+                                            </div>
+                                            <div class="contact-card-detail-info">
+                                                <div class="contact-card-detail-title">Email</div>
+                                                <div class="contact-card-detail-desc">info@example.com</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="images/contact-back.jpg" class="contact-back">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-text">&copy Edidiong Ben</div>
+        </footer>
+
+        <!--Bootstrap Scripts-->
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+        <script type="text/javascript" src="js/text-rotate.js"></script>
+    </body>
+</html>
