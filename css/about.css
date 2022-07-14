@@ -1,0 +1,171 @@
+
+/*About Me Section*/
+.about-me {
+
+}
+
+.about-me-holder {
+
+}
+
+.about-me-box{
+
+}
+
+.experience-container {
+    margin-top: 5%;
+}
+
+.about-box {
+    position: relative;
+}
+
+.about-first-line {
+    margin-top: 5%;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.about-second-line {
+    margin-top: 5%;
+    opacity: .8;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.download-cv button {
+    padding: 10px 30px;
+    background-color: #C70039;
+    color: whitesmoke;
+    border: none;
+    font-size: 20px;
+    font-family: aileron, serif;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.experience-image-box {
+    position: relative;
+}
+
+.experience-image {
+    position: absolute;
+    float: right;
+    width: 80%;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+
+/*My Services Section*/
+.my-services .container-fluid {
+    padding: 3% 8%;
+}
+
+.my-services-list {
+    margin-top: 5%;
+}
+
+.service-card-holder {
+    padding: 10px;
+}
+
+.service-card {
+    background-color: #191919;
+    border-radius: 15px;
+    text-align: center;
+    height: 400px;
+    /*margin: 0 0.5px;*/
+}
+
+.service-card-logo {
+    background-color: #C70039;
+    border-radius: 30px;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.service-card-title {
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-top: 7%;
+}
+
+.service-card-explanation {
+    margin-top: 10%;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+
+/*My Skills Section*/
+.my-skills .container-fluid {
+    padding: 3% 5%;
+}
+
+.my-skills-list {
+    margin-top: 5%;
+}
+
+.skill-card {
+    padding: 2% 2%;
+}
+
+.skill-title {
+    font-family: poppins, sans-serif;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.skill-percentage {
+    background-color: #191919;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin-top: 2%;
+}
+
+.percent {
+    background-color: #C70039;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+}
+
+.html\/css .percent {
+    width: 95%;
+}
+
+.javascript .percent {
+    width: 90%;
+}
+
+.adobe-ps .percent {
+    width: 83%;
+}
+
+.php .percent {
+    width: 87%;
+}
+
+.jquery .percent {
+    width: 94%;
+}
+
+.seo .percent {
+    width: 84%;
+}

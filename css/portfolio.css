@@ -1,0 +1,54 @@
+
+/*Portfolio Section*/
+.portfolio-list {
+    padding: 10px 50px;
+}
+
+.portfolio-card {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.portfolio-img-holder {
+    padding: 15px;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-desc-box {
+    top: 125px;
+    right: 90px;
+    position: relative;
+    background-color: #080808;
+    padding: 30px 25px 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.desc-title {
+    font-size: 35px;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+}
+
+.desc {
+    color: whitesmoke;
+    margin-top: 5%;
+    font-size: 16px;
+    opacity: .8;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+}
+
+.view-project-button {
+    padding: 5px;
+    margin-top: 5%;
+    text-align: center;
+}

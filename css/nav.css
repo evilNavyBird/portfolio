@@ -1,0 +1,41 @@
+
+body {
+    background-color: #020202;
+}
+
+.navigation {
+    height: 100vh;
+}
+
+.navigation .container-fluid {
+    height: 100%;
+    position: relative;
+}
+
+.navigation .container-fluid ul {
+    width: 70%;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation .container-fluid ul li {
+    margin: 30px;
+}
+
+.navigation .container-fluid ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+    opacity: .7;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navigation .container-fluid ul li a:hover {
+    color: #C70039;
+}

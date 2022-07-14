@@ -1,0 +1,98 @@
+
+body {
+    background: #171717;
+}
+
+/*Header Section*/
+header {
+    height: 100vh;
+    position: relative;
+}
+
+.my-picture {
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.left-pane {
+    float: left;
+    width: 10%;
+}
+
+.left-pane .logo-carousel .logo-holder {
+    height: 40px;
+    width: 36px;
+}
+
+.left-pane .logo-carousel .logo-holder .logo {
+    width: 20px;
+}
+
+.right-pane {
+    float: right;
+    width: 10%;
+}
+
+.right-pane .logo-carousel .logo-holder {
+    height: 60px;
+    width: 50px;
+}
+
+.right-pane .logo-carousel .logo-holder .logo {
+    width: 30px;
+}
+
+.intro-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.name {
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+
+.skills {
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pane {
+    height: 100%;
+    position: relative;
+}
+
+.logo-carousel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo-holder {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
